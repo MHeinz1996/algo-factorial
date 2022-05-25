@@ -5,9 +5,9 @@ def factorial_recur(num):
 		return num * factorial_recur(num-1)
 
 def factorial_iter(num):
-	factor = 1
+	product = 1
 
 	for i in range(0, num):
-		factor*=(num-i)
+		product*=(num-i)
 
-	return factor	
+	return product	
